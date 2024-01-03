@@ -73,16 +73,34 @@
             echo $variable1;
             echo "<br>";
             
-            // echo "<br>";
-            
-            // echo "<br>";
-            // echo ++$variable1;
-            // echo "<br>";
             // Logical Operators
+            // and (&&)
+            // or (||)
+            // xor
+            // not (!)
+            //$newVar = (true and true);
+            //$newVar = (false and true);
+            //$newVar = (false and false);
+            //$newVar = (true and false);
+            //$newVar = (true or false);
+            //$newVar = (false or false);
+
+            //$newVar = (true xor true);
+            //$newVar = (false xor true);
+            //$newVar = (false xor false);
+            //echo var_dump($newVar)
         ?>
         <?php
-            //echo "Hello World again" ;
-            // secret algo
+            // Data types in php
+            // 1. String
+            // 2. Integer
+            // 3. Float
+            // 4. Boolean
+            // 5. Array
+            // 6. Object
+            echo "Data Types of PHP <br>";
+            $var = "This is a string";
+            echo var_dump($var);
         ?>
     </div>
 </body>
